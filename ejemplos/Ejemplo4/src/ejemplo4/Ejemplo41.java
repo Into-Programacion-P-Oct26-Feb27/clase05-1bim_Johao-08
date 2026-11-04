@@ -25,6 +25,8 @@ public class Ejemplo41 {
         System.out.println("Ingrese la ciudad");
         ciudad = entrada.nextLine(); // Quito
         //F           or          //F         >>>>> F
+        /* Esta cadena no se ejecuta bien debido a una falta de logica ya que
+        no se puede estar en 3 ciudades a la vez*/
         if (ciudad.equals("Loja") && ciudad.equals("Machala") && 
                 ciudad.equals("Guayaquil")) {
             System.out.printf("%s\n", "acceso correcto");
