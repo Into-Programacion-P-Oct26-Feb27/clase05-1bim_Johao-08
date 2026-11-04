@@ -24,7 +24,9 @@ public class Ejemplo4 {
         System.out.println("Ingrese la nota necesaria");
         promedio = entrada.nextDouble();
         
-        entrada.nextLine();
+        entrada.nextLine(); /* Esta entrada esta para que se pueda leer de 
+                             * decimal o entero a cadena nuevamente
+                             */
         
         String nombreEstudiante;
         System.out.println("Ingrese nombre de estudiante");
