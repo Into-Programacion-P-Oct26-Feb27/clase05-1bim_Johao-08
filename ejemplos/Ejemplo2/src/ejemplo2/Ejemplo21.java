@@ -51,7 +51,7 @@ public class Ejemplo21 {
                     + "promedio: %.2f\n", 
                     miNombre, ciudad, edad, promedio);
         }else{
-            System.out.printf("Estudiante %s (%s -%d años) reprobado con un "
+            System.out.printf("Estudiante %s (%s - %d años) reprobado con un "
                     + "promedio: %.2f\n",miNombre, ciudad, edad, promedio);
         }
     }
